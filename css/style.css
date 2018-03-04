@@ -1,0 +1,58 @@
+.stringBuffer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.stringBuffer fieldset {
+  width: 50%;
+}
+
+.stringBuffer fieldset ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stringBuffer fieldset .result #bufferResult {
+  background-color: lightgray;
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.usersSort fieldset {
+  width: 50%;
+}
+
+.users {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.users fieldset {
+  width: 50%;
+}
+
+.users fieldset ul {
+  list-style: none;
+  padding: 0;
+}
+
+.result fieldset {
+  width: 50%;
+}
+
+.result fieldset #bufferResult {
+  background-color: lightgray;
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.result fieldset #bufferResult p {
+  padding: 0;
+  margin: 0;
+}
+
+.result fieldset #bufferResult p b {
+  color: red;
+}

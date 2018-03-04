@@ -1,0 +1,82 @@
+
+.stringBuffer {
+  box-sizing: border-box;
+  fieldset {
+    width: 50%;
+
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+
+      }
+    }
+
+    .result {
+      #bufferResult {
+        background-color: lightgray;
+        border: 2px solid blue;
+        padding: 5px;
+        margin: 5px 0;
+
+      }
+
+
+    }
+  }
+
+}
+
+
+.usersSort {
+  fieldset {
+    width: 50%;
+  }
+}
+
+
+.users {
+  box-sizing: border-box;
+  fieldset {
+    width: 50%;
+
+
+
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+
+      }
+    }
+
+
+  }
+
+}
+.result {
+  fieldset {
+    width: 50%;
+
+    #bufferResult {
+      background-color: lightgray;
+      border: 2px solid blue;
+      padding: 5px;
+      margin: 5px 0;
+
+      p {
+        padding: 0;
+        margin: 0;
+
+        b {
+          color: red;
+        }
+      }
+
+    }
+  }
+
+
+}

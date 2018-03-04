@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section class="users">
+    <fieldset>
+        <legend>
+            Добавить пользователя
+        </legend>
+        <form>
+            <ul>
+                <li>
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" value="" >
+                </li>
+                <li>
+                    <label for="surname">Фамилия</label>
+                    <input type="text" id="surname" value="" >
+                </li>
+                <li>
+                    <label for="age">Возраст</label>
+                    <input type="text" id="age" value="">
+                </li>
+                <li>
+                    <input type="button" id="submit" value="Добавить">
+                </li>
+            </ul>
+        </form>
+    </fieldset>
+</section>
+
+<section class="result">
+    <fieldset>
+        <legend>
+            Содержание буффера
+        </legend>
+        <input type="button" id="clear" value="Очистить">
+        <div id="bufferResult"></div>
+    </fieldset>
+</section>
+</body>
+<script src="./../js/task4.js"></script>
+</html>

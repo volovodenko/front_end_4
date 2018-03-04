@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<section class="stringBuffer">
+    <fieldset>
+        <legend>
+            Строковый буффер
+        </legend>
+        <form>
+            <ul>
+                <li>
+                    <label for="bufferVal">Введите значение</label>
+                    <input type="text" id="bufferVal" value="">
+                    <button type="reset" id="addBuffer">Добавить</button>
+                </li>
+                <li>
+                    <button type="reset" id="clearBuffer">Очистить</button>
+                </li>
+                <li>
+                    <button type="reset" id="showBuffer">Отобразить</button>
+                </li>
+            </ul>
+        </form>
+        <hr>
+        <section class="result">
+            <header>Результаты вывода буффера</header>
+            <div id="bufferResult"></div>
+        </section>
+    </fieldset>
+</section>
+<hr>
+<section class="usersSort">
+    <fieldset>
+        <legend>
+            Сортировка
+        </legend>
+        <label for="sortVal">Сортировать по</label>
+        <input type="text" id="sortVal" value="" placeholder="name | surname | age">
+        <button id="sortOps">Сортировать</button>
+        <hr>
+        <div id="result">
+        </div>
+    </fieldset>
+</section>
+</body>
+<script src="./../js/task3.js"></script>
+</html>
