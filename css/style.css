@@ -12,13 +12,6 @@
   padding: 0;
 }
 
-.stringBuffer fieldset .result #bufferResult {
-  background-color: lightgray;
-  border: 2px solid blue;
-  padding: 5px;
-  margin: 5px 0;
-}
-
 .usersSort fieldset {
   width: 50%;
 }
@@ -41,18 +34,18 @@
   width: 50%;
 }
 
-.result fieldset #bufferResult {
+#bufferResult {
   background-color: lightgray;
   border: 2px solid blue;
   padding: 5px;
   margin: 5px 0;
 }
 
-.result fieldset #bufferResult p {
+#bufferResult p {
   padding: 0;
   margin: 0;
 }
 
-.result fieldset #bufferResult p b {
+#bufferResult p b {
   color: red;
 }

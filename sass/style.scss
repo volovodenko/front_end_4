@@ -14,17 +14,7 @@
       }
     }
 
-    .result {
-      #bufferResult {
-        background-color: lightgray;
-        border: 2px solid blue;
-        padding: 5px;
-        margin: 5px 0;
 
-      }
-
-
-    }
   }
 
 }
@@ -47,9 +37,6 @@
     ul {
       list-style: none;
       padding: 0;
-      li {
-
-      }
     }
 
 
@@ -60,23 +47,25 @@
   fieldset {
     width: 50%;
 
-    #bufferResult {
-      background-color: lightgray;
-      border: 2px solid blue;
-      padding: 5px;
-      margin: 5px 0;
-
-      p {
-        padding: 0;
-        margin: 0;
-
-        b {
-          color: red;
-        }
-      }
-
-    }
   }
 
+
+}
+
+
+#bufferResult {
+  background-color: lightgray;
+  border: 2px solid blue;
+  padding: 5px;
+  margin: 5px 0;
+
+  p {
+    padding: 0;
+    margin: 0;
+
+    b {
+      color: red;
+    }
+  }
 
 }

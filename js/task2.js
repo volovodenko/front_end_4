@@ -6,13 +6,16 @@ function byField(field) {
 
 function showResult(result) {
     var div = document.getElementById("result"); //вытягиваем наш div
-    div.innerHTML = "";
+    buffer = "";
+
 
     result.forEach(function (person) {
-        div.innerHTML += "name: " + person.name;
-        div.innerHTML += "; surname: " + person.surname;
-        div.innerHTML += "; age: " + person.age + "<br>";
+        buffer += "name: " + person.name;
+        buffer += "; surname: " + person.surname;
+        buffer += "; age: " + person.age + "<br>";
     });
+
+    div.innerHTML = buffer;
 }
 
 

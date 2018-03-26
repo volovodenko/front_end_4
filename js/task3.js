@@ -1,7 +1,6 @@
 var myLib = (function () {  //библиотека
 
-    function result() {
-    }
+    result = {};
 
     result.makeBuffer = function () {
         var currentBuffer = [];
@@ -31,8 +30,7 @@ var myLib = (function () {  //библиотека
 
 var run = (function () { //библиотека отображения данных
 
-    function result() {
-    }
+    result = {};
 
     result.buffer = function () {
         var buffer = myLib.makeBuffer(), //подключаем буффер
